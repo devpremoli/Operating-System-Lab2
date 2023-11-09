@@ -1,8 +1,8 @@
-all: signals timer
+all: signal timer
 
-signals:
+signal:
 	@echo "Compiling signal.c"
-	@gcc signal.c -o signals
+	@gcc signal.c -o signal
 
 timer:
 	@echo "Compiling timer.c"
